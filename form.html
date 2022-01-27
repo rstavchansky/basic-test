@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form File</title>
+  </head>
+  <body>
+    <form name="fileForm2" data-netlify="true">
+  <p>
+    <label>
+      <span>Name:</span>
+      <input name="name" type="text"/>
+    </label>
+  </p>
+  <p>
+    <label>
+      <span>Add file:</span>
+      <input name="file" type="file"/>
+    </label>
+  </p>
+  <button>Submit</button>
+</form>
+<p class="result"></p>
+    <script>
+    document.forms.fileForm2.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const result = document.querySelector(".result");
+  fetch("/", {
+    body: new FormData(event.target),
+    headers: { "Content-Type": "multipart/form-data" },
+    method: "POST",
+  })
+    .then(() => {
+      result.innerHTML = "Success";
+    })
+    .catch((error) => {
+      result.innerHTML = `Failed: ${error}`;
+    });
+});
+    </script>
+  </body>
+</html>
