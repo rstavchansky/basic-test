@@ -26,6 +26,7 @@
   event.preventDefault();
   const result = document.querySelector(".result");
   fetch("/form", {
+
     body: new FormData(event.target),
     headers: { "Content-Type": "multipart/form-data" },
     method: "POST",
