@@ -5,7 +5,7 @@
     <title>Form File</title>
   </head>
   <body>
-    <form name="fileForm" data-netlify="true">
+    <form name="fileForm2" data-netlify="true">
   <p>
     <label>
       <span>Name:</span>
@@ -22,7 +22,7 @@
 </form>
 <p class="result"></p>
     <script>
-    document.forms.fileForm.addEventListener("submit", (event) => {
+    document.forms.fileForm2.addEventListener("submit", (event) => {
   event.preventDefault();
   const result = document.querySelector(".result");
   fetch("/", {
