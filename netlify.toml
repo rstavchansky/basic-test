@@ -7,4 +7,4 @@ package = "netlify-plugin-checklinks"
 [[headers]]
   for = "/protected/*"
   [headers.values]
-    Basic-Auth: "rstav:yomama"
+    Basic-Auth = "rstav:yomama"
