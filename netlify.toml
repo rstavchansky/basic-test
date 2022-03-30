@@ -3,3 +3,8 @@ package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
   checkExternal = true
+
+[[headers]]
+  for = "/protected/*"
+  [headers.values]
+    Basic-Auth: "rstav:yomama"
