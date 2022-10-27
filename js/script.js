@@ -4,7 +4,7 @@ sendEmailButton = document.querySelector(".emailTest");
 
 var sendEmail = function () {
 
- await fetch(
+await fetch(
     `${process.env.URL}/.netlify/functions/emails/welcome`,
     {
       headers: {
