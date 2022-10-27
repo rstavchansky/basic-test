@@ -1,8 +1,8 @@
-import {fetch} from 'node-fetch'
+var fetch = require('node-fetch');
 
 sendEmailButton = document.querySelector(".emailTest");
 
-var sendEmail = function () {
+var sendEmail = async function () {
 
 await fetch(
     `${process.env.URL}/.netlify/functions/emails/welcome`,
