@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+import {fetch} from 'node-fetch'
 
 sendEmailButton = document.querySelector(".emailTest");
 
