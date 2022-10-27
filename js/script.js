@@ -1,4 +1,6 @@
-var fetch = require('node-fetch');
+//var fetch = require('node-fetch');
+
+import fetch from 'node-fetch'
 
 sendEmailButton = document.querySelector(".emailTest");
 
