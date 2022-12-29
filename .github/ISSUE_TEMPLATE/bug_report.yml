@@ -1,0 +1,45 @@
+ name: Docs UI bug report
+about: Create a report to help us improve the UI of the external-facing docs site. (Not content-related)
+labels: ['bug','needs frontend']
+title: [Bug] Add your docs bug title here
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting a bug for the docs site!
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      placeholder: A clear and concise description of what the bug is. If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        Steps to reproduce the behavior:
+          1. Go to '...'
+          2. Select '....'
+          3. Scroll down to '....'
+          4. Encounter error
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      placeholder: A clear and concise description of what you expected to happen.
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you finding the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+  - type: textarea
+    attributes:
+      label: Additional environment details
+      description: |
+        If needed, enter more information on browser version, OS, device (if mobile)
+- type: markdown
+    attributes:
+      value:  |
+        **Next steps**
+          1. This issue will be automatically added to the Triage column of the [Writing Task Board](https://github.com/orgs/netlify/projects/229) using a GitHub Action.
+          2. The Docs team will triage the issue at a weekly triage meeting. For questions, reach out to us in the #crew-docs Slack channel or comment on this issue.
