@@ -41,5 +41,5 @@ body:
     attributes:
       value:  |
         **Next steps**
-          1. This issue will be automatically added to the Triage column of the [Writing Task Board](https://github.com/orgs/netlify/projects/229) using a GitHub Action.
+          1. This issue will be automatically added to the Triage column of the Writing Task Board using a GitHub Action.
           2. The Docs team will triage the issue at a weekly triage meeting. For questions, reach out to us in the #crew-docs Slack channel or comment on this issue.
