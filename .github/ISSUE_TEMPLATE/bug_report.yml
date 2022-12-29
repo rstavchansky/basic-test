@@ -1,5 +1,5 @@
- name: Docs UI bug report
-about: Create a report to help us improve the UI of the external-facing docs site. (Not content-related)
+name: Docs UI bug report
+description: Create a report to help us improve the UI of the external-facing docs site. (Not content-related)
 labels: ['bug','needs frontend']
 title: [Bug] Add your docs bug title here
 body:
