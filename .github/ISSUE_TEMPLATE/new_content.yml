@@ -47,8 +47,7 @@ body:
     attributes:
       value: |
         ## We welcome your contributions.
-          Is this a minor, self-contained addition or an update for a [Docs Tier 3 or 4](https://netlify-handbook.netlify.app/product/documentation/#docs-tiers) concern? Or do you want to create a first draft for us to iterate on? 
-          Consider assigning yourself and [submitting a PR](https://netlify-handbook.netlify.app/devex/policies/docs-contribution-guide/) to this repo.
+          Is this a minor, self-contained addition or an update for a [Docs Tier 3 or 4](https://netlify-handbook.netlify.app/product/documentation/#docs-tiers) concern? Or do you want to create a first draft for us to iterate on? Consider assigning yourself and [submitting a PR](https://netlify-handbook.netlify.app/devex/policies/docs-contribution-guide/) to this repo.
   - type: markdown
     attributes:
       value: |
