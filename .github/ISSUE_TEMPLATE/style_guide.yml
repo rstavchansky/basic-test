@@ -1,11 +1,12 @@
 name: Style guide
 description: Add or update a style guide entry.
 labels: ["docs: styleguide"]
+title: Add your title here
 body:
   - type: markdown
     attributes:
       value: |
-        **Note:** This template is for tracking updates and additions for the [Netlify Style Guide](https://netlify-handbook.netlify.app/product/documentation/docs-style-guide) additions/updates.
+        Use this issue template to track updates and additions to the [Netlify Style Guide](https://netlify-handbook.netlify.app/product/documentation/docs-style-guide).
   - type: dropdown
     attributes:
       label: Addition or update or both?
@@ -16,38 +17,23 @@ body:
   - type: textarea
     attributes:
       label: Describe the updates or additions
+      description: 
       placeholder:  |
-        If you have a sense of what you think a new entry should be, include as much information as you have to help us codify it. You can include an overview of the entry with title, appropriate usage, and any inconsistent current usage. Consider the information in our new entry guidelines and template: [Format for new entries](https://netlify-handbook.netlify.app/devex/docs-style-guide/#format-for-new-terminology-entries).
-
-        For an update to an existing entry, include what changes you're suggesting.
-
-        If you don't know what the guideline should be but are noting a need to clarify and codify something, that's okay too. Just give us as much info as you have to help us get started. The docs team will examine existing content to consider options for usage. Netlify resources and external resources are both useful.
-  - type: dropdown
-    attributes:
-      label: If known, which pillar does this issue fall into?
-      multiple: true
-      options:
-        - Developer Workflow
-        - Ecosystem
-        - Expansion
-        - Runtime
-        - Foundations
-        - Infrastructure
-        - Not associated with a pillar
+        A description of what needs to be updated or added to the style guide
   - type: textarea
     attributes:
       label: Stakeholders
       placeholder: |
-        Key contacts for this work
+        People who may need to be informed or consulted for this work
   - type: textarea
     attributes:
       label: Timeline
-      placeholder: If known, approximate or actual dates related to this work
+      placeholder: Add a timeline, if it's relevant
   - type: textarea
     attributes:
       label: Additional context
       placeholder: |
-        If needed, add any other context about this work: related issues, forum posts, support tickets, Notion links, screenshots, or other supporting information about the request
+        If needed, add any other context about this style guide update or addition: related issues, forum posts, support tickets, Notion links, screenshots, or other supporting information about the request
   - type: markdown
     attributes:
       value: |
