@@ -36,7 +36,7 @@ body:
       label: Additional environment details
       description: |
         If needed, enter more information on browser version, OS, device (if mobile)
-- type: markdown
+  - type: markdown
     attributes:
       value: |
         **Next steps**

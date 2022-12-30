@@ -1,7 +1,7 @@
 name: Test Report
 description: Create a report to help us improve the UI of the external-facing docs site. (Not content-related)
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "[Bug]: Please add your issue title here"
+labels: ["bug", "needs frontend"]
 body:
   - type: markdown
     attributes:
