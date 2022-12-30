@@ -1,6 +1,6 @@
 name: Style guide
 description: Add or update a style guide entry.
-title: "Add your title here"
+title: "[Style guide] Add your title here"
 labels: ["docs: styleguide"]
 body:
   - type: markdown
