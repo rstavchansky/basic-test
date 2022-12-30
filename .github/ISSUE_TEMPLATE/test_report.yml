@@ -1,5 +1,5 @@
 name: Test Report
-description: File a test report
+description: Create a report to help us improve the UI of the external-facing docs site. (Not content-related)
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
