@@ -1,0 +1,52 @@
+name: Create or edit content
+description: Add new content or update existing content.
+title: "[Date or approximate timeline] Add your title here"
+body:
+  - type: dropdown
+    attributes:
+      label: What is the reason for this issue?
+      multiple: true
+      options:
+        - Brand new feature
+        - Expanded support related to an existing feature
+        - Content gap (something we haven't documented but we should)
+        - Content improvement (something that could be clearer in current docs)
+        - Content correction (something we are currently lying about)
+        - Other (tell us more below!)
+  - type: textarea
+    attributes:
+      label: What needs documentation?
+      placeholder: A description of what needs to be documented
+  - type: dropdown
+    attributes:
+      label: If known, which pillar does this issue fall into?
+      multiple: true
+      options:
+        - Developer Workflow
+        - Ecosystem
+        - Expansion
+        - Runtime
+        - Foundations
+        - Infrastructure
+        - Not associated with a pillar
+  - type: textarea
+    attributes:
+      label: Stakeholders
+      placeholder: |
+        Key contacts for this work
+  - type: textarea
+    attributes:
+      label: Timeline
+      placeholder: If known, approximate or actual dates related to this work
+  - type: textarea
+    attributes:
+      label: Additional context
+      placeholder: |
+        If needed, add any other context about this work
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Next steps
+          1. This issue will be automatically added to the Triage column of the [Writing Task Board](https://github.com/orgs/netlify/projects/229) using a GitHub Action.
+          2. The Docs team will triage the issue at a weekly triage meeting. For questions, reach out to us in the #crew-docs Slack channel or comment on this issue.
