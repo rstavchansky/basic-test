@@ -1,0 +1,9 @@
+name: Test Report
+description: File a test report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this test report!
