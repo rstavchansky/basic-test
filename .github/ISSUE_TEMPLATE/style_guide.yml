@@ -1,19 +1,12 @@
 name: Style guide
 description: Add or update a style guide entry.
-labels: ["docs: styleguide"]
 title: "Add your title here"
+labels: ["docs: styleguide"]
 body:
   - type: markdown
     attributes:
       value: |
         Use this issue template to track updates and additions to the [Netlify Style Guide](https://netlify-handbook.netlify.app/product/documentation/docs-style-guide).
-  - type: dropdown
-    attributes:
-      label: What kind of work is needed for an entry or style guide section?
-      multiple: true
-      options:
-        - Add
-        - Update
   - type: textarea
     attributes:
       label: Describe the updates or additions
@@ -28,7 +21,7 @@ body:
   - type: textarea
     attributes:
       label: Timeline
-      placeholder: Add a timeline if it's relevant
+      placeholder: Add a timeline if it's relevant, for example, if the work is related to a specific project or feature launch
   - type: textarea
     attributes:
       label: Additional context
