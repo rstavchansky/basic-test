@@ -16,7 +16,7 @@ body:
   - type: textarea
     attributes:
       label: What needs documentation?
-      placeholder: A description of what needs to be documented
+      placeholder: A detailed description of what needs to be documented
   - type: dropdown
     attributes:
       label: If known, which pillar does this issue fall into?
