@@ -1,5 +1,5 @@
 name: Docs UI feature request
-description: Suggest a feature request to add to or update the UI for the external-facing docs site. (Not content-related)
+description: Suggest a feature request to add to or update the UI for the external-facing docs site at [docs.netlify.com](https://docs.netlify.com/). (Not content-related)
 title: "Add your feature request title here"
 labels: ['site enhancement','needs frontend']
 body:
